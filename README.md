@@ -14,7 +14,7 @@ Este é um projeto simples que utiliza uma API de previsão do tempo para mostra
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/api-capstone-project.git
+   git clone https://github.com/paulo-hmm/weather_consult.git
 
 
 Claro! Aqui está um exemplo de um README para o seu projeto:
@@ -37,7 +37,7 @@ Este é um projeto simples que utiliza uma API de previsão do tempo para mostra
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/api-capstone-project.git
+   git clone https://github.com/paulo-hmm/weather_consult.git
 
 2. Navegue até o diretório do projeto:
 
