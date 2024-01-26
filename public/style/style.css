@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease;
+    font-family: monospace;
+    font-style: oblique;
+    color: chocolate;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFDC61;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #e9ec2b, #f3b007);
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #333;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+form input {
+    border-color: chocolate;
+    border-style: double;
+    border-radius: 25px;
+    opacity: 0.8;
+    background: #FFDC61;    
+}
+
+#get {
+    background-color: #FFC04E;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#results {
+    display: grid;
+    justify-content: center;
+    color: #333;
+    font-size: larger;
+}
+
+#icon-weather {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-style: oblique;
+    font-size: large;
+    color: #333;
+}
+
+span {
+    color: chocolate;
+    font-weight: bold;
+}

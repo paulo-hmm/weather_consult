@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Capstone Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Descubra como está o tempo na sua cidade</h1>
+    
+        <form id="myForm" method="post">
+            <label for="cityInput">Cidade:</label>
+            <input type="text" id="cityInput" name="city" placeholder="     Digite aqui a cidade">
+            
+            <input id="get" type="submit" value="Pesquisar" formaction="/submit">
+        </form>
+         <br>
+        <div id="results">
+            <% if (locals.weatherData) { %>
+                <h2>Cidade de <strong><%= weatherData.city %></h2></strong>
+                <p>
+                    <span>Temperatura:</span> <%= weatherData.temperature %>ºC <br>
+                    <!-- Temperatura Mínima: <%= weatherData.temperatureMin %>ºC<br>
+                    Temperatura Máxima: <%= weatherData.temperatureMax %>ºC<br> -->
+                    <span>Humidade:</span> <%= weatherData.humidity %>%<br>
+                    <span>Vento:</span> <%= weatherData.speed %>km/h<br>
+                    <span>Tempo com <%= weatherData.descriptionWeather %></span>
+                </p>
+                <div id="icon-weather">
+                    <img src="<%= weatherData.icon %>" alt="Weather Icon" >
+                </div>
+            <% } %>
+        </div>
+        
+    </div>
+    
+</body>
+        <footer>
+            <a href="https://github.com/paulo-hmm" target="_blank"><strong>@paulo-hmm</strong></a> 
+        </footer>
+</html>
