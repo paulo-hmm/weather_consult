@@ -60,8 +60,8 @@ Este é um projeto simples que utiliza uma API de previsão do tempo para mostra
 
 - **Descubra como está o tempo na sua cidade:** Digite o nome da cidade no campo de entrada e clique em "GET".
 - **Visualize informações detalhadas:** Receba informações úteis sobre o clima, como temperatura, umidade, descrição do tempo e velocidade do vento.
-![Alt text](image-1.png)
-![Alt text](image.png)
+![Alt text](/public/images/image-1.png)
+![Alt text](/public/images/image.png)
 
 ## Estrutura do Projeto
 
